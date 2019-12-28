@@ -1,0 +1,18 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@6.12.0
+3 info using node@v12.13.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle training@1.0.0~predev: training@1.0.0
+6 info lifecycle training@1.0.0~dev: training@1.0.0
+7 verbose lifecycle training@1.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle training@1.0.0~dev: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/achrafgaoubouzi/learnVue/myTodoProject/node_modules/.bin:/Users/achrafgaoubouzi/.yarn/bin:/Users/achrafgaoubouzi/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/achrafgaoubouzi/.yarn/bin:/Users/achrafgaoubouzi/.config/yarn/global/node_modules/.bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+9 verbose lifecycle training@1.0.0~dev: CWD: /Users/achrafgaoubouzi/learnVue/myTodoProject
+10 silly lifecycle training@1.0.0~dev: Args: [
+10 silly lifecycle   '-c',
+10 silly lifecycle   'cross-env NODE_ENV=development webpack-dev-server --open --hot'
+10 silly lifecycle ]
+11 timing npm Completed in 259635ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>
