@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'lint' ]
+2 info using npm@6.12.0
+3 info using node@v12.13.0
+4 verbose stack Error: missing script: lint
+4 verbose stack     at run (/usr/local/lib/node_modules/npm/lib/run-script.js:155:19)
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/run-script.js:63:5
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:116:5
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:435:5
+4 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:391:45)
+4 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:433:3)
+4 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:161:5)
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:382:12
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:115:16
+4 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:61:3)
+5 verbose cwd /Users/achrafgaoubouzi/learnVue/myTodoProject
+6 verbose Darwin 19.0.0
+7 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "lint"
+8 verbose node v12.13.0
+9 verbose npm  v6.12.0
+10 error missing script: lint
+11 verbose exit [ 1, true ]
